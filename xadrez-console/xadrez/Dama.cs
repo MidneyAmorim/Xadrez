@@ -13,5 +13,9 @@ namespace xadrez
             return "D";
         }
 
+        public override bool[,] movimentosPossiveis()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
