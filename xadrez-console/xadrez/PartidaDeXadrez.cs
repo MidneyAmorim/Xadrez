@@ -95,6 +95,8 @@ namespace xadrez {
             colocarNovaPeca('e', 2, new Torre(tab, Cor.Branca));
             colocarNovaPeca('e', 1, new Torre(tab, Cor.Branca));
             colocarNovaPeca('d', 1, new Rei(tab, Cor.Branca));
+            colocarNovaPeca('b', 1, new Dama(tab, Cor.Branca));
+            colocarNovaPeca('b', 2, new Bispo(tab, Cor.Branca));
 
             colocarNovaPeca('c', 7, new Torre(tab, Cor.Preta));
             colocarNovaPeca('c', 8, new Torre(tab, Cor.Preta));
@@ -102,6 +104,8 @@ namespace xadrez {
             colocarNovaPeca('e', 7, new Torre(tab, Cor.Preta));
             colocarNovaPeca('e', 8, new Torre(tab, Cor.Preta));
             colocarNovaPeca('d', 8, new Rei(tab, Cor.Preta));
+            colocarNovaPeca('b', 8, new Dama(tab, Cor.Preta));
+            colocarNovaPeca('b', 7, new Bispo(tab, Cor.Preta));
 
             /*
             colocarNovaPeca(new Peao(tab, Cor.Branca), new PosicaoXadrez('e', 2);

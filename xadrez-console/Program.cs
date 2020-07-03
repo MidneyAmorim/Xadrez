@@ -40,10 +40,6 @@ namespace xadrez_console {
                     }
 
                 }
-
-
-
-
                 Console.ReadLine();
             }
             catch (TabuleiroException e) {
