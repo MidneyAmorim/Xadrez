@@ -49,7 +49,7 @@ namespace xadrez
                 }
                 pos.coluna++;
             }
-            // Direita
+            // Esquerda
             pos.definirValores(posicao.linha, posicao.coluna - 1);
             while (tab.posicaoValida(pos) && podeMover(pos)) {
                 mat[pos.linha, pos.coluna] = true;

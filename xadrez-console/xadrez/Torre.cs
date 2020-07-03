@@ -57,7 +57,7 @@ namespace xadrez
                 }
                 pos.coluna++;
             }
-            // Direita
+            // Eequerda
             pos.definirValores(posicao.linha, posicao.coluna - 1);
             while (tab.posicaoValida(pos) && podeMover(pos))
             {
