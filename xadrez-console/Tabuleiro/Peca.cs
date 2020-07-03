@@ -39,6 +39,9 @@ namespace tabuleiro
         }
 
         public bool movimentoPossivel(Posicao pos) {
+            if (pos.linha < 0 || pos.linha >= tab.linhas || pos.coluna < 0 || pos.coluna >= tab.colunas) {
+                throw new TabuleiroException("Posição informada não corresponde a uma posição do tabuleiro!");
+            }
             return movimentosPossiveis()[pos.linha, pos.coluna];
         }
 
